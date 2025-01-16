@@ -1,0 +1,94 @@
+.form-label {
+    color: aliceblue;
+    font-family: 'Nunito',arial,serif;
+}
+
+.auth {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.auth h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Nunito',arial,serif;
+}
+
+.reg {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.reg h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Nunito',arial,serif;
+}
+.reg p {
+    color: red;
+    text-align: center;
+    font-family: 'Nunito',arial,serif;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80.5vh;
+}
+
+.content h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Nunito',arial,serif;
+}
+
+.container {
+    color: aliceblue;
+    font-family: 'Nunito',arial,serif;
+}
+
+.click {
+    display: flex;
+}
+
+.reg .click {
+    margin-top: 5%;
+}
+
+.click div {
+    margin-top: 1%;
+    margin-left: 1rem;
+    font-size: 18px !important;
+}
+
+.click div a{
+    text-decoration: none;
+    color: #ffffff;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    transition: .3s;
+}
+
+.click div a:hover{
+    color: #8d98dba6;
+
+    background-size: 0% 2px;
+}
+
+button {
+    font-family: 'Nunito',arial,serif;
+    background-color: #474F7A !important;
+    border: none !important;
+    font-size: 20px !important;
+    transition: .3s !important;
+}
+
+button:hover {
+    font-family: 'Nunito',arial,serif;
+    background-color: #474F7Ac0 !important;
+}

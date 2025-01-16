@@ -1,0 +1,198 @@
+body {
+    background-color: #1F2544;
+}
+
+.container{
+    text-decoration: none;
+    font-family: 'Nunito';
+}
+
+.sidebar {
+    margin: 1rem 0rem;
+    margin-top: 5rem;
+    background: #474f7a71;
+    height: 40rem;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar ul a{
+    padding: 0px;
+    display: block;
+    border-bottom: 1px solid rgba(200, 209, 216, 0.192);
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.sidebar a:hover{
+    /* background-color: rgba(200, 209, 216, 0.13);*/
+    border-radius: 5px;
+    transition: all 0.5s;
+    box-shadow: 0 2px 10px rgba(23, 22, 32, 0.2), 0 6px 10px rgba(10, 5, 80, 0.05);
+} 
+
+.posts{
+    
+    padding: 20px 0 100px 50px;
+    
+    font-family: 'Nunito';
+    color: aliceblue;
+
+}
+
+.shit::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.shit::-webkit-scrollbar-thumb {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.shit::-webkit-scrollbar-button {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.shit::-webkit-scrollbar-button:hover {
+    background-color: #999999; 
+}
+
+.shit {
+    max-height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* scrollbar-width:none; */
+}
+
+.posts h2{
+    text-align: center;
+    padding-right: 3rem;
+    margin: 30px 0 30px 0px;
+    color: aliceblue;
+}
+
+.row .title-table div{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(200, 209, 216, 0.192);
+    font-weight: 700;
+}
+
+.posts .title-table div{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(200, 209, 216, 0.192);
+    font-weight: 700;
+}
+
+.posts .post div{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(200, 209, 216, 0.192);
+}
+
+.posts a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.posts .post .del a:hover{
+    color: rgb(255, 18, 1);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.posts .post .red a:hover{
+    color: rgb(255, 208, 1);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+/* .add-post form div{
+    margin: 2rem 0 0 0;
+} */
+
+.row .add-post .text{
+    color: black ;
+}
+
+.row .add-post .text .form-label{
+    color: aliceblue;
+}
+
+.button-cr {
+    margin-top: 1rem;
+}
+
+.containerU {
+    width: 90%;
+}
+
+.containerU .posts{
+    width: 60%;
+    margin-left: 28%;
+    margin-top: 7%;
+}
+
+button {
+    border: none !important;
+    font-size: 18px !important;
+}
+
+select {
+    padding-left: 5px;
+    margin-left: 20px !important;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+}
+
+select:hover {
+    background-color: none !important;
+}
+
+.form-check {
+    margin-left: 30px !important;
+}
+
+.form-check label{
+    display: none;
+}
+
+.select-cat {
+    height: 3rem;
+}
+
+.image-container {
+    display: flex;
+    overflow-x: auto !important;
+}
+
+.image-container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.image-container::-webkit-scrollbar-thumb {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.image-container::-webkit-scrollbar-button:hover {
+    background-color: #999999; 
+}
+
+.image-container img{
+    object-fit:cover !important;
+}
